@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="{{css_file}}">
+<form action="" method = "get">
+  <input type="radio" name="filterCategory" value="breakfast">BreakFast
+  <input type="radio" name="filterCategory" value="lunch">Lunch
+  <input type="radio" name="filterCategory" value="dinner">Dinner
+  <input type="radio" name="filterCategory" value="anytime">Anytime
+  <input type="submit" value="Filter Meals" ><br>
+    <p id='answer'></p>
+</form>
+
+<hr>
+<br>
+<h1> Recommended Meals </h1>
+<p1>{{breakFastName}}</p1>
+<p2>{{breakFastCat}}</p2><br><br>
+<p3>{{breakFastDesc}}</p3><br><br><br>
+
+<p1>{{lunchName}}</p1>
+<p2>{{lunchCat}}</p2><br><br>
+<p3>{{lunchDesc}}</p3><br><br><br>
+
+<p1>{{dinnerName}}</p1>
+<p2>{{dinnerCat}}</p2><br><br>
+<p3>{{dinnerDesc}}</p3><br><br><br>
+
+<p1>{{anytimeName}}</p1>
+<p2>{{anytimeCat}}</p2><br><br>
+<p3>{{anytimeDesc}}</p3><br><br><br>
+
+<p1>{{firstName}}</p1>
+<p2>{{firstCat}}</p2><br><br>
+<p3>{{firstDesc}}</p3><br><br><br>
+
+<p1>{{secondName}}</p1>
+<p2>{{secondCat}}</p2><br><br>
+<p3>{{secondDesc}}</p3><br><br><br>
+
+<p1>{{thirdName}}</p1>
+<p2>{{thirdCat}}</p2><br><br>
+<p3>{{thirdDesc}}</p3><br><br><br>
+
+
+
+<br>
+<hr>
+<br>
+<h1> Add a Meal Recommendation</h1>
+<form action="blank" method = "post">
+  Name:
+  <input type="text" name="name"><br>
+  Description:
+  <input type="text" name="description"><br>
+  <input type="radio" name="editList" value="breakfast">BreakFast
+  <input type="radio" name="editList" value="lunch">Lunch<br>
+  <input type="radio" name="editList" value="dinner">Dinner
+  <input type="radio" name="editList" value="anytime">Anytime<br>
+</form>

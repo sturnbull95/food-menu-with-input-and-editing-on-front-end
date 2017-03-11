@@ -1,0 +1,62 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+input[type="radio"] {
+    margin-left: 100px;
+}
+form{
+	text-align: center;
+}
+p1{
+	color: black;
+	margin-left: 350px;
+	font-weight: bold;
+}
+p2{
+	color: black;
+	font-weight: bold;
+}
+p3{
+	color: black;
+	margin-left: 320px;
+	font-weight: normal;
+}
+/* 
+a {
+    color: hotpink;
+    margin-left: 130px;
+    font-size: 20px;
+}
+a {
+	color hotpink;
+	margin-left: 140px;
+	font-size: 20px;
+}
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+p {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+p3 {
+    color: red;
+    font-size: 20px;
+    word-spacing: 3em;
+}
+p4 {
+    color: red;
+    font-size: 20px;
+    word-spacing: 4em;
+}
+mark { 
+    background-color: yellow;
+    color: black;
+    margin-left: 240px;
+    font-size: 20px;
+}
+ */
